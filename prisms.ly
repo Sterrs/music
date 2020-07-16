@@ -45,14 +45,14 @@ music = \relative {
     \new TabStaff \with {
       stringTunings = #bass-tuning
     } {
+      % \tabFullNotation
       \clef moderntab
       \music
-      \tabFullNotation
     }
   >>
-  \midi {
-    \tempo 4 = 118
-  }
+  % \midi {
+  %   \tempo 4 = 118
+  % }
 }
 
 \header {
